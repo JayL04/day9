@@ -44,24 +44,63 @@
 <br>
 <br>
 <br>
-<form action="mailto:lja350647@gnspes.ca?subject=From%20our%20Website" 
+<br>
+<br>
+<br>
+<br>
+<form id="adoption-form" action="mailto:lja350647@gnspes.ca?subject=From%20our%20Website" 
 method="post" enctype="text/plain">
 
   <br>  
-  
+
+    &nbsp;&nbsp;&nbsp;
+    Name of Pet:<br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="text" name="Pet Name" required="required"><br>
+    &nbsp;&nbsp;&nbsp;
     E-mail:<br>
+    &nbsp;&nbsp;&nbsp;
     <input type="email" name="mail" required="required"><br>
+    &nbsp;&nbsp;&nbsp;
     Your first and Last Name:<br>
+    &nbsp;&nbsp;&nbsp;
     <input type="text" name="YourName" minlength="3" required="required" size="50"><br>
+    &nbsp;&nbsp;&nbsp;
     Enter your age:<br>
+    &nbsp;&nbsp;&nbsp;
     <input type="number" name="age" min="16" required="required" size="25"><br>
-    Address:<br>
-    <input type="number" name="address" required="required"><br>
+    &nbsp;&nbsp;&nbsp;
+    Province:<br>
+    &nbsp;&nbsp;&nbsp;
+    <select name="cars">
+        <option value="Nova Scotia">NS</option>
+        <option value="Alberta">AB</option>
+        <option value="British Columbia">BC</option>
+        <option value="Manitoba">MB</option>
+        <option value="Newfoundland and Labrador">NL</option>
+        <option value="Prince Edward Island">PEI</option>
+        <option value="Quebec">QC</option>
+        <option value="Ontario">ON</option>
+        <option value="Saskatchewan">SK</option>
+        <option value="Yukon">YT</option>
+        <option value="Northwest Territories">NT</option>
+        <option value="Nunavut">NU</option>
+    </select><br>
+    &nbsp;&nbsp;&nbsp;
+    Phone number:<br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="tel" name="phone" required="required"><br>
+    &nbsp;&nbsp;&nbsp;
     Enter your GitHub URL here:<br>
+    &nbsp;&nbsp;&nbsp;
     <input type="url" id="url" name="url" required="required"><br>
+    &nbsp;&nbsp;&nbsp;
+    <br>
+    &nbsp;&nbsp;&nbsp;
     <label for="TDate">Today's Date:</label>
     <input type="date" id="TDate" name="TDate" required="required">
     <br>
+    &nbsp;&nbsp;&nbsp;
     <input type="submit" value="Send">
     <input type="reset" value="Reset">
 </form>
